@@ -1,10 +1,10 @@
 ﻿import { useNavigate } from "react-router-dom";
 
 import Header from "../components/Header";
-import HotelMiniCard from "../components/booking/HotelMiniCard";
-import RoomCard from "../components/booking/RoomCard";
-import TariffCard from "../components/booking/TariffCard";
-import BookingSummary from "../components/booking/BookingSummary";
+import HotelMiniCard from "../components/Booking/HotelMiniCard";
+import RoomCard from "../components/Booking/RoomCard";
+import TariffCard from "../components/Booking/TariffCard";
+import BookingSummary from "../components/Booking/BookingSummary";
 
 export default function BookingPage() {
     const navigate = useNavigate();
