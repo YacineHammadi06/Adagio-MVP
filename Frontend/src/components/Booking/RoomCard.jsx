@@ -1,17 +1,17 @@
-export default function RoomCard() {
+ï»¿export default function RoomCard() {
     return (
         <div className="rounded-2xl bg-white p-5 shadow">
 
             <h2 className="mb-3 text-xl font-bold">
-                Appartement sélectionné
+                Appartement sÃ©lectionnÃ©
             </h2>
 
             <p className="text-gray-600">
-                Studio • 2 voyageurs
+                Studio â€¢ 2 voyageurs
             </p>
 
             <p className="text-gray-600">
-                25 m²
+                25 mÂ²
             </p>
 
             <p className="text-gray-600">

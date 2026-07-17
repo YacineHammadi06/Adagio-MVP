@@ -1,4 +1,4 @@
-export default function HotelMiniCard() {
+﻿export default function HotelMiniCard() {
     return (
         <div className="rounded-2xl bg-white p-5 shadow">
 
@@ -13,7 +13,7 @@ export default function HotelMiniCard() {
             </h2>
 
             <p className="mt-2 text-gray-500">
-                Paris � France
+                Paris • France
             </p>
 
             <div className="mt-4 flex gap-2">
