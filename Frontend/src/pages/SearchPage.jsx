@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Podium from "../components/Podium";
 import HotelCard from "../components/HotelCard";
-import MapView from "../components/Mapview";
+import MapView from "../components/MapView";
 import ComparisonTable from "../components/ComparisonTable";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../App.css";
