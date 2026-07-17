@@ -1,0 +1,37 @@
+id,name,city,country,zone,price_per_night,capacity,bedrooms,comfort_score,location_score,rating,distance_to_center,wifi,parking,pool,gym,photo,accessible,pets_allowed,hotel_type,air_conditioning,meeting_room,breakfast,latitude,longitude
+1,Adagio Paris Tour Eiffel,Paris,France,centre,210,4,2,9,10,4.7,0.5,1,1,0,1,paris-tour-eiffel.jpg,1,1,Business,1,1,1,48.867754,2.314201
+2,Adagio Paris Bercy,Paris,France,quartier_familial,165,4,1,8,8,4.3,3.2,1,1,0,1,paris-bercy.jpg,1,1,Family,1,1,1,48.838602,2.330057
+3,Adagio Paris Montmartre,Paris,France,centre_historique,175,3,1,8,9,4.5,1.8,1,0,0,0,paris-montmartre.jpg,1,0,Business,1,1,1,48.875518,2.366336
+4,Adagio Paris Nation,Paris,France,quartier_familial,145,4,1,7,7,4.1,4.0,1,1,0,0,paris-la-defense.jpg,1,0,Family,1,0,1,48.887974,2.319155
+5,Adagio Paris Opera,Paris,France,centre,230,2,1,10,10,4.8,0.2,1,0,0,1,paris-montmartre.jpg,1,1,Family,1,0,1,48.850354,2.314584
+6,Adagio Paris Bastille,Paris,France,centre_historique,155,4,1,8,8,4.2,1.5,1,0,0,0,paris-bastille.jpg,1,1,Family,0,0,1,48.834091,2.352628
+7,Adagio Paris La Defense,Paris,France,quartier_affaires,170,6,2,8,7,4.4,6.5,1,1,0,1,paris-la-defense.jpg,1,0,Family,1,0,1,48.818723,2.328107
+8,Adagio Paris Porte Versailles,Paris,France,quartier_affaires,180,4,1,8,8,4.3,5.0,1,1,0,1,paris-porte-versailles.jpg,1,1,Business,1,1,1,48.868591,2.355795
+9,Adagio Barcelona Ramblas,Barcelona,Spain,centre_historique,180,4,2,9,10,4.8,0.3,1,0,0,1,barcelona-familial.jpg,1,1,Family,1,0,0,41.362735,2.180541
+10,Adagio Barcelona Sagrada Familia,Barcelona,Spain,centre,160,4,1,8,9,4.5,1.2,1,1,0,0,papa.jpg,1,1,Family,1,1,1,41.409854,2.13392
+11,Adagio Barcelona Poblenou,Barcelona,Spain,quartier_familial,140,4,1,8,7,4.2,4.0,1,1,1,1,barcelona-beach.jpg,1,0,Business,1,0,1,41.409566,2.189251
+12,Adagio Barcelona Beach,Barcelona,Spain,bord_de_mer,200,6,3,9,8,4.7,3.0,1,1,1,1,barcelona-beach.jpg,1,1,Family,1,1,0,41.37232,2.145838
+13,Adagio Barcelona Plaza Catalunya,Barcelona,Spain,centre,220,2,1,10,10,4.9,0.1,1,0,0,1,papa.jpg,1,0,Business,1,0,1,41.421677,2.160328
+14,Adagio Barcelona Eixample,Barcelona,Spain,centre,170,4,2,8,9,4.4,1.0,1,0,0,0,barcelona-familial.jpg,1,0,Family,1,0,0,41.35252,2.141137
+15,Adagio Madrid Centro,Madrid,Spain,centre,150,4,2,8,10,4.5,0.4,1,0,0,1,madrid-centre.jpg,1,0,Business,1,1,1,40.4446,-3.695502
+16,Adagio Madrid Gran Via,Madrid,Spain,centre,190,2,1,9,10,4.8,0.2,1,0,0,1,madrid-centre1.jpg,1,0,Business,1,1,1,40.44137,-3.685421
+17,Adagio Madrid Chamartin,Madrid,Spain,quartier_affaires,130,4,1,7,6,4.0,5.5,1,1,0,0,madrid-centre2.jpg,1,0,Family,1,1,0,40.419698,-3.665951
+18,Adagio Madrid Retiro,Madrid,Spain,quartier_familial,160,4,2,8,8,4.4,2.2,1,0,0,0,madrid-centre3.jpg,1,1,Business,1,1,1,40.407083,-3.699637
+19,Adagio Rome Colosseum,Rome,Italy,centre_historique,210,4,2,9,10,4.8,0.4,1,0,0,1,rome-centre3.jpg,0,0,Family,1,0,1,41.929152,12.505882
+20,Adagio Rome Termini,Rome,Italy,centre,150,4,1,8,8,4.2,1.5,1,0,0,0,rome-centre2.jpg,0,1,Business,1,1,1,41.931737,12.502588
+21,Adagio Rome Vaticano,Rome,Italy,centre_historique,170,4,2,8,9,4.5,1.1,1,0,0,0,rome-centre1.jpg,1,0,Business,1,1,1,41.919166,12.460066
+22,Adagio Rome Trastevere,Rome,Italy,quartier_familial,165,4,2,9,8,4.6,2.0,1,0,0,0,rome-centre.jpg,0,0,Family,1,0,1,41.881032,12.479551
+23,Adagio London City,London,United Kingdom,centre,260,4,2,9,10,4.8,0.5,1,0,0,1,london-centre3.jpg,0,1,Family,1,1,0,51.473583,-0.148977
+24,Adagio London Tower Bridge,London,United Kingdom,centre_historique,240,4,2,9,9,4.7,0.8,1,0,0,1,london-centre2.jpg,1,1,Family,1,0,0,51.47528,-0.145362
+25,Adagio London Canary Wharf,London,United Kingdom,quartier_affaires,200,6,3,8,7,4.4,7.0,1,1,1,1,london-centre1.jpg,1,1,Business,1,1,1,51.518055,-0.138413
+26,Adagio London Kensington,London,United Kingdom,centre,280,2,1,10,10,4.9,0.4,1,0,0,1,london-centre.jpg,1,1,Family,1,1,1,51.496814,-0.150839
+27,Adagio Amsterdam Centrum,Amsterdam,Netherlands,centre,220,4,2,9,10,4.8,0.3,1,0,0,1,amsterdam-centre3.jpg,1,1,Family,1,1,1,52.348958,4.939032
+28,Adagio Amsterdam Zuid,Amsterdam,Netherlands,quartier_affaires,170,4,1,8,7,4.2,4.8,1,1,0,1,amsterdam-centre2.jpg,0,0,Family,1,1,0,52.379443,4.91283
+29,Adagio Amsterdam Museum Quarter,Amsterdam,Netherlands,centre_historique,230,2,1,10,10,4.9,0.2,1,0,0,1,amsterdam-centre1.jpg,1,0,Family,1,0,0,52.341291,4.92243
+30,Adagio Amsterdam Canal District,Amsterdam,Netherlands,centre_historique,210,4,2,9,9,4.7,0.7,1,0,0,0,amsterdam-centre.jpg,1,1,Business,1,1,1,52.340672,4.894456
+31,Adagio Lyon Part Dieu,Lyon,France,quartier_affaires,140,4,1,8,8,4.3,2.5,1,1,0,1,lyon-centre2.jpg,1,0,Business,1,1,1,45.803162,4.8469
+32,Adagio Lyon Vieux Lyon,Lyon,France,centre_historique,160,4,2,9,10,4.7,0.4,1,0,0,0,lyon-centre1.jpg,1,1,Business,1,1,1,45.768556,4.850469
+33,Adagio Lyon Confluence,Lyon,France,quartier_familial,150,6,3,8,8,4.4,3.0,1,1,0,1,lyon-centre.jpg,0,1,Family,1,0,1,45.791428,4.85778
+34,Adagio Marseille Vieux Port,Marseille,France,centre_historique,170,4,2,9,10,4.8,0.3,1,0,0,0,marseille-centre.jpg,0,0,Business,0,0,1,43.274824,5.332368
+35,Adagio Marseille Prado,Marseille,France,bord_de_mer,140,4,1,8,7,4.2,3.5,1,1,0,0,marseille-centre2.jpg,1,1,Family,1,0,0,43.281736,5.351219
+36,Adagio Marseille Euromed,Marseille,France,quartier_affaires,130,6,3,7,6,4.0,5.5,1,1,1,1,marseille-centre1.jpg,1,1,Family,1,0,0,43.273379,5.405233
