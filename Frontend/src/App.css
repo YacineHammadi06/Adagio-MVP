@@ -1,4 +1,4 @@
-.counter {
+ï»¿.counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -642,7 +642,7 @@
             font-weight: 700;
         }
 }
-/* Sécurité responsive globale */
+/* SÃ©curitÃ© responsive globale */
 * {
     box-sizing: border-box;
 }
@@ -740,7 +740,7 @@ body,
             padding: 14px !important;
         }
 
-            /* Première colonne */
+            /* PremiÃ¨re colonne */
             .comparison-table th:first-child,
             .comparison-table td:first-child {
                 position: sticky;
