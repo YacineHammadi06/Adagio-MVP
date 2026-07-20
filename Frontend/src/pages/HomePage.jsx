@@ -156,37 +156,22 @@ function App() {
                         flexDirection: "column",
                         alignItems: "center",
                         minHeight: "calc(100vh - 80px)",
-                        padding: "40px",
+                        padding: "clamp(16px,3vw,40px)",
                     }}
-                ><h2
-                    style={{
-                        fontSize: "64px",
-                        fontWeight: "500",
-                        marginBottom: "40px",
-                        color: "#111",
-                        textAlign: "center",
-                    }}
-                >
-                        Découvrez nos aparthotels dans le monde
-                    </h2>
+            ><h2 className="home-main-title">
+                    Découvrez nos aparthotels dans le monde
+                </h2>
 
 
-                    <h1
-                        style={{
-                            fontSize: "42px",
-                            fontWeight: "700",
-                            marginBottom: "20px",
-                            color: "#111",
-                        }}
-                    >
-                        Recherche intelligente Adagio Match
-                    </h1>
+                <h1 className="home-ai-title">
+                    Recherche intelligente Adagio Match
+                </h1>
 
                     <p
                         style={{
                             color: "#666",
                             marginBottom: "40px",
-                            fontSize: "18px",
+                            fontSize: "clamp(15px,2vw,18px)",
                         }}
                     >
                         Trouvez la résidence idéale en quelques secondes
@@ -195,9 +180,9 @@ function App() {
                     {/* MAP */}
                     <div
                         style={{
-                            width: "110%",
+                            width: "100%",
                             maxWidth: "2000px",
-                            height: "50vh",
+                            height: "clamp(280px,50vw,600px)",
                             borderRadius: "24px",
                             overflow: "hidden",
                             marginBottom: "40px",
@@ -353,6 +338,8 @@ function App() {
                             maxWidth: "2000px",
                             display: "flex",
                             gap: "20px",
+                            flexWrap: "wrap",
+                            alignItems: "stretch",
                             marginTop: "20px",
                         }}
                     >
@@ -361,12 +348,12 @@ function App() {
                             onChange={(e) => setPrompt(e.target.value)}
                             placeholder="Ex : Je pars à Paris avec ma famille, budget 180 EUR, piscine et parking si possible."
                             style={{
-                                width: "80%",
+                                flex: "1 1 500px",
                                 height: "95px",
                                 background: "white",
                                 color: "black",
                                 padding: "20px 24px",
-                                fontSize: "20px",
+                                fontSize: "clamp(15px,2vw,20px)",
                                 borderRadius: "18px",
                                 border: "1px solid #ddd",
                                 resize: "none",
@@ -376,12 +363,11 @@ function App() {
                         <button
                             onClick={searchHotelsAI}
                             style={{
-                                width: "20%",
-                                minWidth: "250px",
-                                height: "130px",
+                                flex: "1 1 250px",
+                                height: "95px",
                                 background: "#C8102E",
                                 color: "white",
-                                fontSize: "24px",
+                                fontSize: "clamp(18px,2vw,24px)",
                                 border: "none",
                                 borderRadius: "18px",
                                 cursor: "pointer",
@@ -395,14 +381,14 @@ function App() {
                     {/* DESTINATIONS */}
                     <div
                         style={{
-                            width: "110%",
+                            width: "100%",
                             maxWidth: "2000px",
                             marginTop: "80px",
                         }}
                     >
                         <h2
                             style={{
-                                fontSize: "48px",
+                            fontSize: "clamp(28px,4vw,48px)",
                                 fontWeight: "700",
                                 marginBottom: "10px",
                                 color: "#111",
@@ -426,7 +412,7 @@ function App() {
                         <div
                             style={{
                                 display: "grid",
-                                gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))",
+                            gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
                                 gap: "30px",
                             }}
                         >

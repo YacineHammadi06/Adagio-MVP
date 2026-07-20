@@ -202,18 +202,18 @@ function App() {
                         searchHotels={searchHotels}
                     />
 
-                    <div
-                        style={{
-                            flex: 1,
-                            padding: "40px",
-                            color: "black",
-                            background: "#f7f8fa",
-                        }}
-                    >
+                <div
+                    style={{
+                        flex: 1,
+                        padding: "clamp(16px, 3vw, 40px)",
+                        color: "black",
+                        background: "#f7f8fa",
+                    }}
+                >
                         <div style={{ marginBottom: "30px" }}>
                             <h3
                                 style={{
-                                    fontSize: "36px",
+                                    fontSize: "clamp(24px, 4vw, 36px)",
                                     fontWeight: "700",
                                     marginBottom: "10px",
                                 }}
@@ -224,14 +224,14 @@ function App() {
                                 </span>
                             </h3>
 
-                            <p style={{ color: "#000", fontSize: "18px" }}>
+                        <p style={{ color: "#000", fontSize: "clamp(14px,2vw,18px)" }}>
                                 {results.length} résultats trouvés
                             </p>
                         </div>
 
                         <div
                             style={{
-                                height: "500px",
+                                height: "clamp(280px,50vw,500px)",
                                 marginBottom: "40px",
                                 borderRadius: "24px",
                                 overflow: "hidden",

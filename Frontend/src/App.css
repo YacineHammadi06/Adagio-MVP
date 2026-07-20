@@ -213,3 +213,48 @@
 .react-datepicker__day--selected {
     background-color: #C8102E !important;
 }
+
+.home-main-title {
+    font-size: 64px;
+    line-height: 1.15;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #111;
+    text-align: center;
+}
+
+.home-ai-title {
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .home-main-title {
+        font-size: 44px;
+    }
+
+    .home-ai-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-main-title {
+        font-size: 36px;
+        line-height: 1.15;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 0 10px;
+    }
+
+    .home-ai-title {
+        font-size: 25px;
+        line-height: 1.25;
+        margin-bottom: 12px;
+        padding: 0 15px;
+    }
+}
