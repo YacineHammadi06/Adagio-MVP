@@ -25,14 +25,17 @@ function ComparisonTable({ hotels = [] }) {
     if (!hotels.length) return null;
 
     return (
-        <div style={{
-            background: "white",
-            borderRadius: "20px",
-            padding: "30px",
-            marginTop: "40px",
-            marginBottom: "40px",
-            boxShadow: "0 8px 24px rgba(0,0,0,0.06)"
-        }}>
+        <div
+            className="comparison-container"
+            style={{
+                background: "white",
+                borderRadius: "20px",
+                padding: "30px",
+                marginTop: "40px",
+                marginBottom: "40px",
+                boxShadow: "0 8px 24px rgba(0,0,0,0.06)"
+            }}
+        >
 
             <h2 style={{
                 color: "#C8102E",
@@ -94,10 +97,13 @@ function ComparisonTable({ hotels = [] }) {
             </div>
 
             {/* TABLE */}
-            <table style={{
-                width: "100%",
-                borderCollapse: "collapse"
-            }}>
+            <div className="comparison-table-scroll">
+                <table
+                    className="comparison-table"
+                    style={{
+                        borderCollapse: "collapse"
+                    }}
+                >
                 <thead>
                     <tr style={{ borderBottom: "1px solid #ddd" }}>
                         <th
@@ -271,7 +277,8 @@ function ComparisonTable({ hotels = [] }) {
                         ))}
                     </tr>
                 </tbody>
-            </table>
+                </table>
+            </div>
         </div>
     );
 }

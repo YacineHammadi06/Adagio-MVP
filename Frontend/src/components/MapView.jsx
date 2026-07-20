@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import "leaflet/dist/leaflet.css";
 
 function createPriceIcon(price) {
+    const isMobile = window.innerWidth <= 600;
     return L.divIcon({
         html: `
             <div style="
@@ -19,10 +20,10 @@ function createPriceIcon(price) {
                 <div style="
                     background:#C8102E;
                     color:white;
-                    padding:10px 16px;
+                    padding:${isMobile ? "6px 10px" : "10px 16px"};
                     border-radius:24px;
                     font-weight:700;
-                    font-size:14px;
+                    font-size:${isMobile ? "11px" : "14px"};
                     box-shadow:0 6px 18px rgba(0,0,0,0.25);
                     white-space:nowrap;
                     border:2px solid white;
@@ -41,8 +42,8 @@ function createPriceIcon(price) {
             </div>
         `,
         className: "",
-        iconSize: [90, 52],
-        iconAnchor: [45, 52],
+        iconSize: isMobile ? [65, 40] : [90, 52],
+        iconAnchor: isMobile ? [32, 40] : [45, 52],
     });
 }
 

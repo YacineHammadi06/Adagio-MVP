@@ -13,9 +13,11 @@ function Header({ hasSidebar = false }) {
                 </div>
 
                 {/* Logo */}
-                <h1 className="header-logo">
-                    ADAGIO
-                </h1>
+                <img
+                    src="/images/logo-adagio.png"
+                    alt="Adagio Aparthotel"
+                    className="header-logo"
+                />
 
                 {/* Bouton */}
                 <button className="header-account">

@@ -7,7 +7,7 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
 import "./HotelDetailPage.css";
-
+import Header from "../components/Header";
 function HotelDetailPage() {
 
     const { id } = useParams();
@@ -33,6 +33,8 @@ function HotelDetailPage() {
     }
 
     return (
+        <>
+        <Header />
 
         <div className="hotel-page">
 
@@ -124,6 +126,7 @@ function HotelDetailPage() {
             </div>
 
         </div>
+    </>
 
     );
 }

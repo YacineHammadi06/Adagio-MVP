@@ -197,27 +197,13 @@ function App() {
                     </div>
 
                     {/* SIDEPANEL */}
-                    {selectedHotel && (
-                        <div
-                            style={{
-                                position: "fixed",
-                                top: "90px",
-                                right: "0",
-                                width: "420px",
-                                height: "calc(100vh - 90px)",
-                                background: "white",
-                                color: "#111",
-                                boxShadow: "-8px 0 30px rgba(0,0,0,0.15)",
-                                zIndex: 9999,
-                                padding: "24px",
-                                overflowY: "auto",
-                                animation: "slideIn 0.35s ease-out",
-                            }}
-                        >
+                {/* SIDEPANEL */}
+                {selectedHotel && (
+                    <div className="hotel-sidepanel">
                             <div
                                 style={{
                                     background: "#C8102E",
-                                    margin: "-24px -24px 24px -24px",
+                                    margin: "-20px -20px 24px -20px",
                                     padding: "18px",
                                     textAlign: "center",
                                     fontWeight: "700",

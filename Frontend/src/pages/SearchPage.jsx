@@ -56,7 +56,7 @@ function App() {
     const [allHotels, setAllHotels] = useState([]);
     const [selectedHotel, setSelectedHotel] = useState(null);
     const [loading, setLoading] = useState(false);
-    
+    const [showMobileFilters, setShowMobileFilters] = useState(false);
 
     
 
@@ -173,8 +173,35 @@ function App() {
         <div style={{ background: "#f4f4f4", minHeight: "100vh" }}>
             <Header hasSidebar={true} />
 
-            
-                <div style={{ display: "flex" }}>
+            {/* Bouton visible uniquement sur mobile */}
+            <button
+                className="mobile-filter-button"
+                onClick={() => setShowMobileFilters(true)}
+            >
+                ☰ Filtres
+            </button>
+
+            <div className="search-page-layout">
+
+                {/* Fond sombre mobile */}
+                {showMobileFilters && (
+                    <div
+                        className="sidebar-overlay"
+                        onClick={() => setShowMobileFilters(false)}
+                    />
+                )}
+
+                <div
+                    className={`search-sidebar-wrapper ${showMobileFilters ? "open" : ""
+                        }`}
+                >
+                    <button
+                        className="close-mobile-sidebar"
+                        onClick={() => setShowMobileFilters(false)}
+                    >
+                        ×
+                    </button>
+
                     <Sidebar
                         city={city}
                         setCity={setCity}
@@ -200,11 +227,14 @@ function App() {
                         comfortWeight={comfortWeight}
                         setComfortWeight={setComfortWeight}
                         searchHotels={searchHotels}
-                    />
+                       />
 
-                <div
-                    style={{
-                        flex: 1,
+                   </div>
+
+                   <div
+                       className="search-results-content"
+                       style={{
+                           flex: 1,
                         padding: "clamp(16px, 3vw, 40px)",
                         color: "black",
                         background: "#f7f8fa",

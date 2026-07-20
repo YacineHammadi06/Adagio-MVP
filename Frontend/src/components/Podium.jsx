@@ -1,4 +1,7 @@
-﻿function Podium({ hotels }) {
+﻿import { useNavigate } from "react-router-dom";
+function Podium({ hotels }) {
+
+    const navigate = useNavigate();
     if (hotels.length === 0) return null;
     
     const first = hotels[0];
@@ -9,16 +12,14 @@
         <div style={{ marginBottom: "40px" }}>
             <h3> Top 3 recommandations </h3>
 
-            <div
-                style={{
-                    display: "flex",
-                    gap: "20px",
-                    alignItems: "flex-end",
-                    marginTop: "40px",
-                }}
-            >
-                <div style={{ flex: 1 }}>
+            <div className="podium-container">
+                <div className="podium-item podium-second">
                     <div
+                        onClick={() =>
+                            navigate(`/hotel/${second.id}`, {
+                                state: { hotel: second }
+                            })
+                        }
                         onMouseEnter={(e) => {
                             e.currentTarget.style.transform = "translateY(-10px)";
                         }}
@@ -88,8 +89,13 @@
                         </div>
                     </div>
                 </div>
-                <div style={{ flex: 1.2 }}>
+                <div className="podium-item podium-first">
                     <div
+                        onClick={() =>
+                            navigate(`/hotel/${first.id}`, {
+                                state: { hotel: first }
+                            })
+                        }
                         onMouseEnter={(e) => {
                             e.currentTarget.style.transform = "translateY(-10px)";
                         }}
@@ -169,8 +175,13 @@
                         </div>
                     </div>
                 </div>
-                <div style={{ flex: 1 }}>
+                <div className="podium-item podium-third">
                     <div
+                        onClick={() =>
+                            navigate(`/hotel/${third.id}`, {
+                                state: { hotel: third }
+                            })
+                        }
                         onMouseEnter={(e) => {
                             e.currentTarget.style.transform = "translateY(-10px)";
                         }}
@@ -240,6 +251,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     );
