@@ -260,7 +260,34 @@
 }
 
 /* PANNEAU HOTEL CARTE */
+/* PANNEAU HOTEL CARTE - DESKTOP */
 
+.hotel-sidepanel {
+    position: fixed;
+    top: 90px;
+    right: 0;
+    width: 420px;
+    max-width: 90vw;
+    height: calc(100vh - 90px);
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: -8px 0 30px rgba(0, 0, 0, 0.18);
+    z-index: 9999;
+    animation: slideInHotel 0.35s ease-out;
+}
+
+@keyframes slideInHotel {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
 @media (max-width: 600px) {
     .hotel-sidepanel {
         position: fixed;
